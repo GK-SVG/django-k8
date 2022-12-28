@@ -1,0 +1,1 @@
+kubectl create secret generic django-k8s-web-env_prod --from-env-file=.env.prod
